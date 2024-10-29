@@ -1,0 +1,899 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "_deps/libwebsockets-build/lib/libwebsockets.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"add_dependencies",
+			"target_compile_definitions",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/CMakeLists.txt",
+			"out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 169,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 284,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1046,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 178,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 475,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 521,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 958,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 177,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Wno-deprecated-declarations -Wno-deprecated -Wall -Wextra -Wno-unused-parameter -Wconversion -Wsign-compare -Wstrict-aliasing -fvisibility=hidden -Wundef  -Wuninitialized -Wtype-limits -Wignored-qualifiers   -Werror -pthread -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "LWS_BUILDING_STATIC"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-build"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/."
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/plat/unix/."
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/tls/."
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/core/."
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/misc/."
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/system/./async-dns"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/system/smd/."
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/system/metrics/."
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/core-net/."
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/roles/."
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/roles/http/."
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/roles/http/./compression"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/roles/h1/."
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/roles/h2/."
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/roles/ws/."
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/roles/raw-skt/."
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/roles/raw-file/."
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/roles/listen/."
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/event-libs/."
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/event-libs/poll/../poll"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/opt/homebrew/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "GENHDR::@7ecb609c36fe5645690a"
+		}
+	],
+	"id" : "websockets::@ae13fee76e7152b93df9",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/install/GCC 14.2.0 aarch64-apple-darwin23"
+		}
+	},
+	"name" : "websockets",
+	"nameOnDisk" : "libwebsockets.a",
+	"paths" : 
+	{
+		"build" : "_deps/libwebsockets-build/lib",
+		"source" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/plat/unix/unix-caps.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/plat/unix/unix-misc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/plat/unix/unix-init.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/plat/unix/unix-file.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/plat/unix/unix-pipe.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/plat/unix/unix-service.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/plat/unix/unix-sockets.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/plat/unix/unix-fds.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/tls/tls.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/tls/tls-network.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/tls/tls-sessions.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/tls/openssl/openssl-tls.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/tls/openssl/openssl-x509.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/tls/openssl/openssl-ssl.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/tls/openssl/openssl-session.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/tls/tls-server.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/tls/openssl/openssl-server.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/tls/tls-client.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/tls/openssl/openssl-client.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/core/alloc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/core/buflist.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/core/context.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/core/lws_dll2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/core/lws_map.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/core/libwebsockets.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/core/logs.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/core/vfs.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/misc/base64-decode.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/misc/prng.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/misc/lws-ring.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/misc/cache-ttl/lws-cache-ttl.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/misc/cache-ttl/heap.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/misc/cache-ttl/file.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/misc/dir.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/misc/lwsac/lwsac.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/misc/lwsac/cached-file.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/misc/sha-1.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/misc/lejp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/system/system.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/system/smd/smd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/core-net/dummy-callback.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/core-net/output.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/core-net/close.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/core-net/network.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/core-net/vhost.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/core-net/pollfd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/core-net/service.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/core-net/sorted-usec-list.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/core-net/wsi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/core-net/wsi-timeout.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/core-net/adopt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/roles/pipe/ops-pipe.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/core-net/state.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/core-net/client/client.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/core-net/client/connect.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/core-net/client/connect2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/core-net/client/connect3.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/core-net/client/connect4.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/core-net/client/sort-dns.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/core-net/client/conmon.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/roles/http/header.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/roles/http/date.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/roles/http/parsers.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/roles/http/server/server.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/roles/http/server/lws-spa.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/roles/http/cookie.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/roles/http/server/lejp-conf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/roles/h1/ops-h1.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/roles/h2/http2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/roles/h2/hpack.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/roles/h2/ops-h2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/roles/ws/ops-ws.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/roles/ws/client-ws.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/roles/ws/client-parser-ws.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/roles/ws/server-ws.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/roles/raw-skt/ops-raw-skt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/roles/raw-file/ops-raw-file.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/roles/listen/ops-listen.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/roles/http/client/client-http.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/event-libs/poll/poll.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

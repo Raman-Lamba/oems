@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-subbuild/CMakeFiles/libwebsockets-populate"
+		},
+		{
+			"file" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-subbuild/CMakeFiles/libwebsockets-populate.rule"
+		},
+		{
+			"file" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-subbuild/CMakeFiles/libwebsockets-populate-complete.rule"
+		},
+		{
+			"file" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-subbuild/libwebsockets-populate-prefix/src/libwebsockets-populate-stamp/libwebsockets-populate-build.rule"
+		},
+		{
+			"file" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-subbuild/libwebsockets-populate-prefix/src/libwebsockets-populate-stamp/libwebsockets-populate-configure.rule"
+		},
+		{
+			"file" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-subbuild/libwebsockets-populate-prefix/src/libwebsockets-populate-stamp/libwebsockets-populate-download.rule"
+		},
+		{
+			"file" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-subbuild/libwebsockets-populate-prefix/src/libwebsockets-populate-stamp/libwebsockets-populate-install.rule"
+		},
+		{
+			"file" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-subbuild/libwebsockets-populate-prefix/src/libwebsockets-populate-stamp/libwebsockets-populate-mkdir.rule"
+		},
+		{
+			"file" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-subbuild/libwebsockets-populate-prefix/src/libwebsockets-populate-stamp/libwebsockets-populate-patch.rule"
+		},
+		{
+			"file" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-subbuild/libwebsockets-populate-prefix/src/libwebsockets-populate-stamp/libwebsockets-populate-test.rule"
+		},
+		{
+			"file" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-subbuild/libwebsockets-populate-prefix/src/libwebsockets-populate-stamp/libwebsockets-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"libwebsockets-populate"
+		],
+		"name" : "libwebsockets-populate"
+	}
+}

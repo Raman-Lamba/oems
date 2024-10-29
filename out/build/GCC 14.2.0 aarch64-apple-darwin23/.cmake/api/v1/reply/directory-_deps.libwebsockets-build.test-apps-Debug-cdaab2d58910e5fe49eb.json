@@ -1,0 +1,142 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/test-apps/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 243,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 251,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 255,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 269,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "examples",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/libwebsockets-build/bin/libwebsockets-test-server"
+			],
+			"targetId" : "test-server::@d254ec4a26e1248f068a",
+			"targetIndex" : 9,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "examples",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/libwebsockets-build/bin/libwebsockets-test-server-extpoll"
+			],
+			"targetId" : "test-server-extpoll::@d254ec4a26e1248f068a",
+			"targetIndex" : 10,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "examples",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/libwebsockets-build/bin/libwebsockets-test-lejp"
+			],
+			"targetId" : "test-lejp::@d254ec4a26e1248f068a",
+			"targetIndex" : 8,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "examples",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/libwebsockets-build/bin/libwebsockets-test-client"
+			],
+			"targetId" : "test-client::@d254ec4a26e1248f068a",
+			"targetIndex" : 7,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "examples",
+			"destination" : "share/libwebsockets-test-server",
+			"paths" : 
+			[
+				"out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-build/libwebsockets-test-server.key.pem",
+				"out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-build/libwebsockets-test-server.pem",
+				"out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/test-apps/favicon.ico",
+				"out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/test-apps/leaf.jpg",
+				"out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/test-apps/candide.zip",
+				"out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/test-apps/candide-uncompressed.zip",
+				"out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/test-apps/libwebsockets.org-logo.svg",
+				"out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/test-apps/http2.png",
+				"out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/test-apps/wss-over-h2.png",
+				"out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/test-apps/lws-common.js",
+				"out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/test-apps/test.html",
+				"out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/test-apps/test.css",
+				"out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/test-apps/test.js"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "examples",
+			"destination" : "share/libwebsockets-test-server/private",
+			"paths" : 
+			[
+				"out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/test-apps/private/index.html"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "examples",
+			"destination" : "share/libwebsockets-test-server",
+			"paths" : 
+			[
+				"out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/test-apps/lws-ssh-test-keys",
+				"out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/test-apps/lws-ssh-test-keys.pub"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/libwebsockets-build/test-apps",
+		"source" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/test-apps"
+	}
+}

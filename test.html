@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Book Viewer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Order Book</h1>
+
+    <label for="currency">Select Currency:</label>
+    <select id="currency" onchange="selectCurrency()">
+      <option value="">--Select Currency--</option>
+      <option value="BTC">BTC</option>
+      <option value="ETH">ETH</option>
+      <option value="USDC">USDC</option>
+      <option value="USDT">USDT</option>
+      <option value="EURR">EURR</option>
+    </select>
+
+    <br /><br />
+
+    <label for="instrument">Select Instrument:</label>
+    <select id="instrument" onchange="selectInstrument()">
+      <option value="">--Select Instrument--</option>
+    </select>
+
+    <br /><br />
+
+    <h3>Order Book</h3>
+    <div id="orderBookContainer">
+      <table id="orderBookTable">
+        <thead>
+          <tr>
+            <th>Field</th>
+            <th>Value</th>
+          </tr>
+        </thead>
+        <tbody id="orderBookBody"></tbody>
+      </table>
+    </div>
+
+    <script>
+      const wsUrl = "ws://localhost:8080";
+      const socket = new WebSocket(wsUrl);
+      const orderBookBody = document.getElementById("orderBookBody");
+
+      socket.addEventListener("open", () => {
+        console.log("Connected to the WebSocket server");
+      });
+
+      socket.addEventListener("message", (event) => {
+        const data = JSON.parse(event.data);
+
+        if (data.type === "instrument_list") {
+          const instrumentSelect = document.getElementById("instrument");
+          instrumentSelect.innerHTML =
+            "<option value=''>--Select Instrument--</option>";
+          data.instruments.forEach((instrument) => {
+            const option = document.createElement("option");
+            option.value = instrument;
+            option.textContent = instrument;
+            instrumentSelect.appendChild(option);
+          });
+        } else if (data.type === "order_book_update") {
+          const orderBook = {
+            instrument_name: data.order_book.instrument_name,
+            best_ask_price: data.order_book.best_ask_price,
+            best_bid_price: data.order_book.best_bid_price,
+            last_price: data.order_book.last_price,
+            mark_price: data.order_book.mark_price,
+            open_interest: data.order_book.open_interest,
+            high: data.order_book.stats.high,
+            low: data.order_book.stats.low,
+            price_change: data.order_book.stats.price_change,
+            volume: data.order_book.stats.volume,
+            volume_usd: data.order_book.stats.volume_usd,
+          };
+
+          orderBookBody.innerHTML = ""; // Clear previous entries
+          for (const [key, value] of Object.entries(orderBook)) {
+            const row = document.createElement("tr");
+            const cellKey = document.createElement("td");
+            const cellValue = document.createElement("td");
+
+            cellKey.textContent = key.replace(/_/g, " ").toUpperCase();
+            cellValue.textContent = value;
+
+            row.appendChild(cellKey);
+            row.appendChild(cellValue);
+            orderBookBody.appendChild(row);
+          }
+        }
+      });
+
+      function selectCurrency() {
+        const currency = document.getElementById("currency").value;
+        if (currency) {
+          socket.send(JSON.stringify({ type: "currency_select", currency }));
+        }
+      }
+
+      function selectInstrument() {
+        const instrument = document.getElementById("instrument").value;
+        if (instrument) {
+          socket.send(
+            JSON.stringify({
+              type: "instrument_select",
+              instrument_name: instrument,
+            })
+          );
+        }
+      }
+
+      socket.addEventListener("close", () => {
+        console.log("Disconnected from the WebSocket server");
+      });
+
+      socket.addEventListener("error", (error) => {
+        console.error("WebSocket error:", error);
+      });
+    </script>
+  </body>
+</html>

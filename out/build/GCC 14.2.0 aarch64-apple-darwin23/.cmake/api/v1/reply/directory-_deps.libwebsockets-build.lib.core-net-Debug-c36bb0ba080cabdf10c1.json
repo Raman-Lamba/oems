@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "_deps/libwebsockets-build/lib/core-net",
+		"source" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/core-net"
+	}
+}

@@ -1,0 +1,14 @@
+# Target labels
+ libwebsockets-populate
+# Source files and their labels
+/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-subbuild/CMakeFiles/libwebsockets-populate
+/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-subbuild/CMakeFiles/libwebsockets-populate.rule
+/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-subbuild/CMakeFiles/libwebsockets-populate-complete.rule
+/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-subbuild/libwebsockets-populate-prefix/src/libwebsockets-populate-stamp/libwebsockets-populate-build.rule
+/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-subbuild/libwebsockets-populate-prefix/src/libwebsockets-populate-stamp/libwebsockets-populate-configure.rule
+/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-subbuild/libwebsockets-populate-prefix/src/libwebsockets-populate-stamp/libwebsockets-populate-download.rule
+/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-subbuild/libwebsockets-populate-prefix/src/libwebsockets-populate-stamp/libwebsockets-populate-install.rule
+/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-subbuild/libwebsockets-populate-prefix/src/libwebsockets-populate-stamp/libwebsockets-populate-mkdir.rule
+/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-subbuild/libwebsockets-populate-prefix/src/libwebsockets-populate-stamp/libwebsockets-populate-patch.rule
+/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-subbuild/libwebsockets-populate-prefix/src/libwebsockets-populate-stamp/libwebsockets-populate-test.rule
+/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-subbuild/libwebsockets-populate-prefix/src/libwebsockets-populate-stamp/libwebsockets-populate-update.rule

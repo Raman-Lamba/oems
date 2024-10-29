@@ -1,0 +1,348 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "_deps/libwebsockets-build/bin/libwebsockets-test-lejp"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"create_test_app",
+			"install",
+			"target_link_libraries",
+			"add_dependencies",
+			"set_property",
+			"target_compile_definitions",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/test-apps/CMakeLists.txt",
+			"out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/CMakeLists.txt",
+			"out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 177,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 73,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 243,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 89,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 118,
+				"parent" : 1
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 268,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 90,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 108,
+				"parent" : 1
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 185,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 475,
+				"parent" : 11
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 521,
+				"parent" : 11
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 958,
+				"parent" : 11
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Wno-deprecated-declarations -Wno-deprecated -Wall -Wextra -Wno-unused-parameter -Wconversion -Wsign-compare -Wstrict-aliasing -fvisibility=hidden -Wundef  -Wuninitialized -Wtype-limits -Wignored-qualifiers   -Werror -pthread -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 9,
+					"define" : "INSTALL_DATADIR=\"/Users/ramanlamba/Desktop/deribit/oems/out/install/GCC 14.2.0 aarch64-apple-darwin23/share\""
+				},
+				{
+					"backtrace" : 10,
+					"define" : "LWS_BUILDING_STATIC"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 12,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-build"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/."
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/plat/unix/."
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/tls/."
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/core/."
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/misc/."
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/system/./async-dns"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/system/smd/."
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/system/metrics/."
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/core-net/."
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/roles/."
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/roles/http/."
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/roles/http/./compression"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/roles/h1/."
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/roles/h2/."
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/roles/ws/."
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/roles/raw-skt/."
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/roles/raw-file/."
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/roles/listen/."
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/event-libs/."
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/event-libs/poll/../poll"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/../include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-build/lib/../include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/opt/homebrew/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 8,
+			"id" : "websockets::@ae13fee76e7152b93df9"
+		}
+	],
+	"id" : "test-lejp::@d254ec4a26e1248f068a",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 3,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/Users/ramanlamba/Desktop/deribit/oems/out/install/GCC 14.2.0 aarch64-apple-darwin23"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wno-deprecated-declarations -Wno-deprecated -Wall -Wextra -Wno-unused-parameter -Wconversion -Wsign-compare -Wstrict-aliasing -fvisibility=hidden -Wundef  -Wuninitialized -Wtype-limits -Wignored-qualifiers   -Werror -pthread -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../lib/libwebsockets.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/homebrew/lib/libssl.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/homebrew/lib/libcrypto.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "test-lejp",
+	"nameOnDisk" : "libwebsockets-test-lejp",
+	"paths" : 
+	{
+		"build" : "_deps/libwebsockets-build/test-apps",
+		"source" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/test-apps"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Sources",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/test-apps/test-lejp.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

@@ -1,0 +1,106 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1061,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1063,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1089,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1097,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "dev",
+			"destination" : "include",
+			"paths" : 
+			[
+				"out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/include/libwebsockets"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "dev",
+			"destination" : "include",
+			"paths" : 
+			[
+				"out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-build/include/libwebsockets.h",
+				"out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-build/include/lws_config.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "dev",
+			"destination" : "lib/cmake/libwebsockets",
+			"paths" : 
+			[
+				"out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-build/CMakeFiles/libwebsockets-config.cmake",
+				"out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-build/libwebsockets-config-version.cmake",
+				"out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-build/CMakeFiles/LwsCheckRequirements.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "dev",
+			"destination" : "lib/cmake/libwebsockets",
+			"exportName" : "LibwebsocketsTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "websockets::@ae13fee76e7152b93df9",
+					"index" : 13
+				},
+				{
+					"id" : "websockets_shared::@ae13fee76e7152b93df9",
+					"index" : 14
+				}
+			],
+			"paths" : 
+			[
+				"_deps/libwebsockets-build/CMakeFiles/Export/e08b449cd7cc1dd7e512a198fb780a74/LibwebsocketsTargets.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/libwebsockets-build",
+		"source" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src"
+	}
+}

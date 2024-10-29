@@ -1,0 +1,103 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 284,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 330,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 354,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "core",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/libwebsockets-build/lib/libwebsockets.a"
+			],
+			"targetId" : "websockets::@ae13fee76e7152b93df9",
+			"targetIndex" : 13,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "core",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/libwebsockets-build/lib/libwebsockets.19.dylib"
+			],
+			"targetId" : "websockets_shared::@ae13fee76e7152b93df9",
+			"targetIndex" : 14,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "core",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/libwebsockets-build/lib/libwebsockets.dylib"
+			],
+			"targetId" : "websockets_shared::@ae13fee76e7152b93df9",
+			"targetIndex" : 14,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-build/libwebsockets.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-build/libwebsockets_static.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/libwebsockets-build/lib",
+		"source" : "out/build/GCC 14.2.0 aarch64-apple-darwin23/_deps/libwebsockets-src/lib"
+	}
+}

@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+de62ab48022d97867313d34ea2d495a9 _deps/curl-build/CMakeFiles/curl_uninstall
+d451d7217f3f845a074eccd22c2d290d _deps/libwebsockets-build/CMakeFiles/GENHDR
+a6e3894e76a9c975f6860afea4750c7d _deps/libwebsockets-build/CMakeFiles/dist
+68fa95eb1c263280aefefac12c22df88 _deps/libwebsockets-build/include/lws_config.h
